@@ -1,0 +1,80 @@
+.authorization {
+    width: 100vw;
+    height: 100vh;
+    /*background: linear-gradient(45deg, #7c51c5 50%, #DEE9FF 50%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    min-height: 400px;
+    max-height: 100%;
+    min-width: 625px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(12, 12, 144, 0.58);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field_block_in_form {
+    margin: 20px;
+}
+
+.header {
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 100%;
+}
+
+.input_auth {
+    border: none;
+    border-bottom: 1px solid #666666;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 13px;
+    outline: none;
+}
+
+.form-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.link {
+    color: #0C0C90;
+}
+
+.link:hover {
+    color: #97BAFF;
+}
+
+.clue {
+    font-size: 12px;
+}

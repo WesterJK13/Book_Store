@@ -1,0 +1,58 @@
+.button{
+    height: 35px;
+    width: 190px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7c51c5;
+    border-color: #7c51c5;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.big_button{
+    height: 55px;
+    width: 190px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7c51c5;
+    border-color: #7c51c5;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.editButton{
+    float: right;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #97BAFF;
+    border-color: #97BAFF;
+}
+
+.button-display{
+    display: none;
+}
+
+.long_button{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7c51c5;
+    border-color: #7c51c5;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.competiitonBtn{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7c51c5;
+    border-color: #7c51c5;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
